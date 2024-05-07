@@ -1,0 +1,40 @@
+/*настройка фона*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    min-width: 1310px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    min-width: 935px;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    background: url('../image/back-img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.error_registr, .error_log, .error_publish{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+.error_registr.invisible, .error_log.invisible, .error_publish.invisible{
+    display: none;
+}

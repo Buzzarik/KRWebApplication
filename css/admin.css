@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    min-width: 1440px;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    min-height: 100%;
+    min-width: 1440px;
+}
+
+.contents{
+    position: relative;
+    display: flex;
+    border: none;
+    background-color: #5892e9;
+    height: 700px;
+}
+
+.new_info{
+    position: relative;
+    width: 950px;
+    height: 650px;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.full_new{
+    position: relative;
+    top: 0;
+    height: 600px;
+    width: 100%;
+    overflow: scroll;
+    background-color: bisque;
+    border-top-right-radius: 11 px;
+    border-top-left-radius: 11px;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    height: 60px;
+    border-top: 2px solid rgba(0, 0, 0, 0.771);
+    justify-content: space-between;
+    background-color: rgb(195, 213, 102);
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info div{
+    position: relative;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.spisok{
+    position: relative;
+    top: 27px;
+    height: 645px;
+    margin-right: 20px;
+    width: 440px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: coral;
+    overflow: scroll;
+}
+
+.spisok p{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.spisok p, .spisok li{
+    padding: 5px 2px;
+}
+
+.spisok ul{
+    position: relative;
+    left: 134px;
+    width: 200px;
+}
+
+.spisok li {
+
+    list-style-type:square;
+    text-align: left;
+}
+/* .spisok li:before {
+    content: &#9745;;
+} */
+
+.spisok li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.spisok li a:hover{
+    color: rgba(187, 255, 0, 0.581);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.action{
+    position: relative;
+    height: 150px;
+    background-color: rgb(19, 15, 145);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.action button, .action a{
+    position: relative;
+    margin: 10px;
+    top: 20px;
+    width: 300px;
+    height: 80px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: #162938;
+    /* background-color: blueviolet; */
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.action a{
+    text-decoration: none;
+    text-align: center;
+}
+.action a p{
+    position: relative;
+    top: 25px;
+}
+
+.action button:hover, .action a:hover{
+    color: aqua;
+}
+
+.new_page, .image, .new_header{
+    margin: 5px;
+}
+
+.new_page{
+    text-align: justify;
+}
+
+.new_header{
+    font-size: 26px;
+    text-align: center;
+}
+
+.image{
+    margin-top: 10px;
+    position: relative;
+    left: 13%;
+    border-radius: 7px;
+}

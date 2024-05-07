@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.layout{
+    min-height: 100%;
+    background: url('../image/back-img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    position: fixed;
+    top:10%;
+    left: 30%;
+    height: 400px;
+    width: 500px;
+    min-width: 400px;
+    min-height: 400px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #162938;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.538);
+
+}
+
+.wrapper h1{
+    position: relative;
+    padding: 10px;
+    height: 70px;
+}
+.wrapper form{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 250px;
+    padding: 10px;
+}
+
+.error, .return{
+    position: relative;
+    height: 20px;
+}
+.error p{
+    text-align: center;
+    color: red;
+}
+.return a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    transition: 0.3s;
+}
+
+.return a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.input-box{
+    position: relative;
+    height: 70px;
+    border-bottom: 2px solid black;
+    padding: 10 px 0px;
+    margin: 10px 10px;
+}
+.input-box label{
+    position: absolute;
+    top: 0%;
+    left: 0px;  
+    font-size: 20px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #162938;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    color: aqua;
+}

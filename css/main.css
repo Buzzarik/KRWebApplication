@@ -1,0 +1,146 @@
+.section__main{
+    position: relative;
+    flex: 1 0 auto;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.main-page__section{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 30px black;
+    color: black;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.main-container{
+    width: 75%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar{
+    width: 25%;
+    margin: 0;
+}
+
+.topnews__row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-container .topnews__row:first-child{
+    margin-top: 5%;
+}   
+
+.card{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgb(162, 160, 160);
+    align-content: center;
+    align-items: center;
+    text-align:left;
+    padding-left: 10px;
+}
+
+.card.big{
+    height: 300px;
+}
+
+.cards-mini{
+    display: flex;
+    width: 100%;
+}
+
+/*.cards-mini__block{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+} DELETE and DELETE all BIG*/
+
+.card.mini{
+    height: 150px;
+}
+
+.card-mini, .card-big{
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.685);
+    transition: 0.5s;
+}
+
+.card-mini:hover, .card-big:hover{
+    color: aqua;
+    text-decoration:underline;
+}
+
+.card-big{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.card-big__image{
+    height: 180px;
+    width: 250px;
+}
+
+.card-big__title{
+    height: 50px;
+    overflow-y: hidden; /*remove */
+}
+
+.card-mini__title{
+    height: 100px;
+    overflow-y: hidden /*remove */
+}
+
+.time_new{ /* replace to .data_new*/
+    position: relative;
+    bottom: -20px;
+    text-align: left;
+
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.siderbar__image{
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+}
+
+.new_page, .image, .new_header{
+    margin: 5px;
+}
+
+.new_page{
+    text-align: justify;
+}
+
+.new_header{
+    font-size: 26px;
+    text-align: center;
+}
+
+.image{
+    margin-top: 10px;
+    position: relative;
+    left: 13%;
+    border-radius: 7px;
+}

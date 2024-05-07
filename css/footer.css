@@ -1,0 +1,26 @@
+.section__footer{
+    position: relative;
+    flex: 0 0 auto;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    justify-items: center;
+}
+
+.footer p{
+    padding: 16px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: transparent;
+}
